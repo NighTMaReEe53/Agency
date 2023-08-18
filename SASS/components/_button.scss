@@ -1,0 +1,26 @@
+.secondary-btn{
+  color: $textColor;
+  border: 1px solid $textColor;
+  font-size: 16px;
+  transition: $trans;
+  &:hover, &:focus, &:active{
+    background-color: $bgMainColor !important;
+    color: $mainColor !important;
+    box-shadow: none !important;
+  }
+}
+.main-btn{
+  background-color: $bgMainColor;
+  color: $mainColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 16px;
+  transition: $trans;
+  &:hover, &:focus, &:active{
+    background-color: $mainColor !important;
+    color: $bgMainColor !important;
+    box-shadow: none !important;
+  }
+}

@@ -1,0 +1,49 @@
+// Start Footer
+
+footer {
+  padding: 15px 0;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    text-decoration: none;
+    user-select: none;
+    img {
+      width: 40px;
+    }
+    span {
+      color: $mainColor;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+  .links {
+    li {
+      a {
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.7);
+        font-weight: 500;
+        transition:$trans;
+        letter-spacing: -0.5px;
+        display: inline-block;
+        text-decoration: none;
+        user-select: none;
+        &:hover, &.active{
+          color: $bgMainColor;
+        }
+      }
+    }
+  }
+  .copyright{
+    margin-bottom: 0;
+    font-size: 15px;
+    user-select: none;
+    color: #fff3;
+    span {
+      font-weight: bold;
+      color: $bgMainColor;
+    }
+  }
+}

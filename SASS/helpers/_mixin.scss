@@ -1,0 +1,17 @@
+// Media Queries
+
+@mixin smScreen {
+  @media (min-width: 0px) and (max-width: 767px) {
+    @content;
+  }
+}
+@mixin mdScreen {
+  @media (min-width: 768px) and (max-width: 992px) {
+    @content;
+  }
+}
+@mixin collection {
+  @media (max-width: 992px) {
+    @content;
+  }
+}
